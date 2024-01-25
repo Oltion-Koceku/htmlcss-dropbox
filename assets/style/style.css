@@ -12,7 +12,7 @@
   /* Scritte */
   --porta: #61082b;
   /* Sponsor 1 */
-    --designit: #a2d39b;
+  --designit: #a2d39b;
   --asu: #61082b;
   --uf: #0093ce;
   --topps: #ff1c1c;
@@ -23,23 +23,88 @@
   --clear: #ffd830;
 }
 
-.container-grande{
-max-width: 1200px;
-margin:0 auto;
-}
-.container-piccolo{
-max-width: 1020px;
-margin:0 auto;
-}
-.container-sponsor{
-max-width: 120px;
-margin: 0 auto;
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.d-flex{
-display: flex;
+.container-grande {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.p-relative{
-position: relative;
+.container-piccolo {
+  max-width: 1020px;
+  margin: 0 auto;
 }
+
+.container-sponsor {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.debug {
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+/* Header */
+header .top-bar {
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+header .top-bar .inizia .button {
+  display: flex;
+}
+
+header .top-bar .info nav ul li a,
+header .top-bar .inizia nav ul li a {
+  margin-right: 45px;
+  color: black;
+}
+
+header .top-bar .inizia .button {
+  margin-right: 0;
+  width: 60px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: var(--button);
+}
+
+header .top-bar .inizia .button a{
+color: white;
+}
+
+.logo {
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+/* Main */
+/* Footer */
