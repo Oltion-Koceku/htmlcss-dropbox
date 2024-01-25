@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility */
+:root {
+  /* background */
+  --button: #0061ff;
+  --hero-porta: #b4d0e7;
+  /* Scritte */
+  --porta: #61082b;
+  /* Sponsor 1 */
+    --designit: #a2d39b;
+  --asu: #61082b;
+  --uf: #0093ce;
+  --topps: #ff1c1c;
+  /* Sponsor 2 */
+  --world: #d5001f;
+  --hears: #b4d0e7;
+  --lonely: #0d2481;
+  --clear: #ffd830;
+}
+
+.container-grande{
+max-width: 1200px;
+margin:0 auto;
+}
+.container-piccolo{
+max-width: 1020px;
+margin:0 auto;
+}
+.container-sponsor{
+max-width: 120px;
+margin: 0 auto;
+}
+
+.d-flex{
+display: flex;
+}
+
+.p-relative{
+position: relative;
+}
