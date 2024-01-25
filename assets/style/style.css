@@ -92,6 +92,12 @@ p{
 font-size: 17px;
 }
 
+hr{
+width: 65px;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
 /* Header */
 header .top-bar {
   height: 80px;
@@ -157,19 +163,47 @@ margin-top: 80px;
 margin-bottom: 55px;
 }
 
-.piano .container-piccolo .abbonamento{
-
-}
 .singolo,
 .team,
 .azienda{
 width: 300px;
+height: 1000px;
+border: 1px solid black;
+margin
+}
+
+.team{
+  margin-left: 59px;
+  margin-right: 59px;
+}
+
+.title-p{
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 .nome-abbonamento{
 justify-content: center;
 text-align: center;
 width: 300px;
 border: 1px solid black;
+}
+.prezzo{
+height: 130px;
+}
+.prezzo strong{
+padding-top: 30px;
+}
+.prezzo span{
+padding-top: 10px;
+padding-bottom: 60px;
+}
+
+.abbonamento p{
+margin-bottom: 30px;
+}
+.container-abbonamenti .button1{
+  margin-bottom: 30px;
+}
 }
 /* /piano */
 
