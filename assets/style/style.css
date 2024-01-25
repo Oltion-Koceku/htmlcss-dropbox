@@ -27,6 +27,10 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main{
+  padding-top: 80px;
+}
+
 .container-grande {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,8 +42,13 @@ body {
 }
 
 .container-sponsor {
-  max-width: 120px;
+  max-width: 530px;
   margin: 0 auto;
+}
+
+.container-abbonamenti{
+max-width: 240px;
+margin: 0 auto;
 }
 
 .d-flex {
@@ -75,6 +84,10 @@ h1{
 font-size: 79px;
 }
 
+h2{
+font-size: 40px;
+}
+
 p{
 font-size: 17px;
 }
@@ -84,13 +97,9 @@ header .top-bar {
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   z-index: 999;
-}
-
-header .top-bar .inizia .button1 {
-  display: flex;
 }
 
 header .top-bar .info nav ul li a,
@@ -106,41 +115,62 @@ header .top-bar .inizia .button1 {
   margin-right: 20px;
 }
 
-header .top-bar .inizia .button1 a {
-  color: white;
-}
-
 .logo {
   margin-right: 50px;
   margin-left: 25px;
 }
 
 /* Main */
+/* hero */
 section.hero{
-height: calc(100vh - 257px);
-background-color: var(--hero-porta);
+  /* height: calc(100vh - 257px); */
+  background-color: var(--hero-porta);
 }
 .hero .container-grande .titolo{
-height: 200px;
-width: 1090px;
+  height: 200px;
+  width: 1090px;
 }
 
 .hero .container-grande .info-titolo{
-padding-top: 75px;
+  padding-top: 75px;
 }
 
 .hero .container-grande .info-titolo .prova{
   max-width: 370px;
 }
 .hero .container-grande .info-titolo .prova .button1{
-padding: 35px 0;
+  padding: 35px 0;
 }
 .hero .container-grande .proposta img{
-width: 800px;
+  width: 800px;
 }
 
 .hero .container-grande .info-titolo .prova i{
-font-size: 55px;
-padding-top: 50px;
+  font-size: 55px;
+  padding-top: 50px;
 }
+/* /hero */
+/* piano */
+.piano .container-piccolo,
+.fatturazione{
+margin-top: 80px;
+margin-bottom: 55px;
+}
+
+.piano .container-piccolo .abbonamento{
+
+}
+.singolo,
+.team,
+.azienda{
+width: 300px;
+}
+.nome-abbonamento{
+justify-content: center;
+text-align: center;
+width: 300px;
+border: 1px solid black;
+}
+/* /piano */
+
 /* Footer */
