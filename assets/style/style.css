@@ -65,8 +65,18 @@ a {
   text-decoration: none;
 }
 
-.button {
+.button1 a{
   padding: 5px 10px;
+  background-color: var(--button);
+  color: white;
+}
+
+h1{
+font-size: 79px;
+}
+
+p{
+font-size: 17px;
 }
 
 /* Header */
@@ -74,12 +84,12 @@ header .top-bar {
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999;
 }
 
-header .top-bar .inizia .button {
+header .top-bar .inizia .button1 {
   display: flex;
 }
 
@@ -88,17 +98,16 @@ header .top-bar .inizia nav ul li a {
   margin-right: 45px;
   color: black;
 }
-
-header .top-bar .inizia .button {
+/* button */
+header .top-bar .inizia .button1 {
   margin-right: 0;
   width: 60px;
   display: inline-block;
   margin-right: 20px;
-  background-color: var(--button);
 }
 
-header .top-bar .inizia .button a{
-color: white;
+header .top-bar .inizia .button1 a {
+  color: white;
 }
 
 .logo {
@@ -107,4 +116,31 @@ color: white;
 }
 
 /* Main */
+section.hero{
+height: calc(100vh - 257px);
+background-color: var(--hero-porta);
+}
+.hero .container-grande .titolo{
+height: 200px;
+width: 1090px;
+}
+
+.hero .container-grande .info-titolo{
+padding-top: 75px;
+}
+
+.hero .container-grande .info-titolo .prova{
+  max-width: 370px;
+}
+.hero .container-grande .info-titolo .prova .button1{
+padding: 35px 0;
+}
+.hero .container-grande .proposta img{
+width: 800px;
+}
+
+.hero .container-grande .info-titolo .prova i{
+font-size: 55px;
+padding-top: 50px;
+}
 /* Footer */
