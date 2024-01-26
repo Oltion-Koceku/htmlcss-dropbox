@@ -27,7 +27,7 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main{
+main {
   padding-top: 80px;
 }
 
@@ -46,9 +46,9 @@ main{
   margin: 0 auto;
 }
 
-.container-abbonamenti{
-max-width: 240px;
-margin: 0 auto;
+.container-abbonamenti {
+  max-width: 240px;
+  margin: 0 auto;
 }
 
 .d-flex {
@@ -60,8 +60,8 @@ margin: 0 auto;
 }
 
 /* .debug { */
-  border: 1px solid black;
-  background-color: cadetblue;
+border: 1px solid black;
+background-color: cadetblue;
 }
 
 .inline-block {
@@ -74,28 +74,28 @@ a {
   text-decoration: none;
 }
 
-.button1 a{
+.button1 a {
   padding: 5px 10px;
   background-color: var(--button);
   color: white;
 }
 
-h1{
-font-size: 79px;
+h1 {
+  font-size: 79px;
 }
 
-h2{
-font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
-p{
-font-size: 17px;
+p {
+  font-size: 17px;
 }
 
-hr{
-width: 65px;
-margin-top: 45px;
-margin-bottom: 45px;
+hr {
+  width: 65px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 /* Header */
@@ -114,6 +114,7 @@ header .top-bar .inizia nav ul li a {
   margin-right: 45px;
   color: black;
 }
+
 /* button */
 header .top-bar .inizia .button1 {
   margin-right: 0;
@@ -129,208 +130,293 @@ header .top-bar .inizia .button1 {
 
 /* Main */
 /* hero */
-section.hero{
+section.hero {
   /* height: calc(100vh - 287px); */
   background-color: var(--hero-porta);
   height: 650px;
 }
-.hero .container-grande .titolo{
+
+.hero .container-grande .titolo {
   height: 200px;
   width: 1090px;
 }
 
-.hero .container-grande .info-titolo{
+.hero .container-grande .info-titolo {
   padding-top: 75px;
 }
 
-.hero .container-grande .info-titolo .prova{
+.hero .container-grande .info-titolo .prova {
   max-width: 370px;
 }
-.hero .container-grande .info-titolo .prova .button1{
+
+.hero .container-grande .info-titolo .prova .button1 {
   padding: 35px 0;
 }
-.hero .container-grande .proposta img{
+
+.hero .container-grande .proposta img {
   width: 800px;
 }
 
-.hero .container-grande .info-titolo .prova i{
+.hero .container-grande .info-titolo .prova i {
   font-size: 55px;
   padding-top: 50px;
 }
+
 /* /hero */
 /* piano */
-.titolo-piano{
-padding-top: 70px;
+.titolo-piano {
+  padding-top: 70px;
 }
 
 .piano .container-piccolo,
-.fatturazione{
-margin-top: 80px;
-margin-bottom: 55px;
+.fatturazione {
+  margin-top: 80px;
+  margin-bottom: 55px;
 }
 
-.piano .container-piccolo .fatturazione .mensile i{
-color:white;
-background-color: #0061ff;
-border-radius: 50%;
+.piano .container-piccolo .fatturazione .mensile i {
+  color: white;
+  background-color: #0061ff;
+  border-radius: 50%;
 }
 
-.piano .container-piccolo .fatturazione .annuale{
-margin-left: 40px;
+.piano .container-piccolo .fatturazione .annuale {
+  margin-left: 40px;
 }
 
 .singolo,
 .team,
-.azienda{
-width: 300px;
-height: 1160px;
-border: 1px solid black;
-margin
+.azienda {
+  width: 300px;
+  height: 1160px;
+  border: 1px solid black;
+  margin
 }
 
-.team{
+.team {
   margin-left: 59px;
   margin-right: 59px;
 }
 
-.title-p{
+.title-p {
   padding-bottom: 30px;
   padding-top: 40px;
 }
-.nome-abbonamento{
-justify-content: center;
-text-align: center;
-width: 300px;
-border-bottom: 1px solid black;
-font-size: 13px;
+
+.nome-abbonamento {
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  border-bottom: 1px solid black;
+  font-size: 13px;
   padding: 6px 0px;
 }
 }
-.prezzo{
-height: 130px;
-}
-.prezzo strong{
-padding-top: 30px;
-}
-.prezzo span{
-padding-top: 10px;
-padding-bottom: 60px;
+
+.prezzo {
+  height: 130px;
 }
 
-.abbonamento p{
+.prezzo strong {
+  padding-top: 30px;
+}
+
+.prezzo span {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.abbonamento p {
   margin-bottom: 30px;
   margin-top: 33px;
 }
-.container-abbonamenti .button1{
+
+.container-abbonamenti .button1 {
   margin-bottom: 30px;
   padding-top: 25px;
 }
 
-.abbonamento .button1 a{
+.abbonamento .button1 a {
 
   width: 240px;
   display: flex;
   justify-content: center;
 }
-.azienda .button1 a{
-}
-.azienda .info-piano p:last-child{
-padding-top: 20px;
+
+.azienda .button1 a {}
+
+.azienda .info-piano p:last-child {
+  padding-top: 20px;
 }
 
-.acquista p span{
-text-decoration: underline;
-color: #61082b;
+.acquista p span {
+  text-decoration: underline;
+  color: #61082b;
 }
+
 /* /piano */
 /* contatta */
-.container-piccolo .enterprise{
-width: 100%;
-margin-top: 50px;
-border: 1px solid black;
-}
-.container-piccolo .enterprise .nome-abbonamento{
-width: 100%;
-border-bottom: 1px solid black;
+.container-piccolo .enterprise {
+  width: 100%;
+  margin-top: 50px;
+  border: 1px solid black;
 }
 
-.container-piccolo .enterprise .contatta{
-padding-top: 40px;
+.container-piccolo .enterprise .nome-abbonamento {
+  width: 100%;
+  border-bottom: 1px solid black;
 }
 
-.container-piccolo .enterprise .contatta .info-contatta{
+.container-piccolo .enterprise .contatta {
+  padding-top: 40px;
+}
+
+.container-piccolo .enterprise .contatta .info-contatta {
   width: 70%;
   margin: 0 auto;
 }
 
-.container-piccolo .enterprise .contatta .info-contatta h3{
+.container-piccolo .enterprise .contatta .info-contatta h3 {
   padding-bottom: 20px;
 }
-.container-piccolo .enterprise .contatta .info-contatta p{
+
+.container-piccolo .enterprise .contatta .info-contatta p {
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-.container-piccolo .enterprise .contatta .button1{
+.container-piccolo .enterprise .contatta .button1 {
   margin: 0 auto;
 }
-.container-piccolo .enterprise .contatta .button1 a{
-padding: 10px 30px;
+
+.container-piccolo .enterprise .contatta .button1 a {
+  padding: 10px 30px;
 }
+
 /* /contatta */
 /* entra */
-.container-piccolo .entra{
-width: 100%;
-margin-top: 150px;
+.container-piccolo .entra {
+  width: 100%;
+  margin-top: 150px;
 
 }
-.text-entra{
-padding: 50px;
+
+.text-entra {
+  padding: 50px;
 }
-.container-piccolo .entra .img-entra{
+
+.container-piccolo .entra .img-entra {
   width: 293%;
 }
-.container-piccolo .entra img{
+
+.container-piccolo .entra img {
   width: 100%;
 }
 
-.button2{
-border: 1px solid black;
-width: 50%;
-padding: 10px;
-text-align: center;
-margin-top: 40PX;
+.button2 {
+  border: 1px solid black;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 40PX;
 }
-.button2 a{
+
+.button2 a {
   color: black;
 }
+
 /* /entra */
 /* cards */
-.container-piccolo .esegui{
-margin-top: 170px;
+.container-piccolo .esegui {
+  margin-top: 170px;
 }
-.container-piccolo .esegui .cards{
-flex-wrap: wrap;
-margin-top: 20px;
+
+.container-piccolo .esegui .cards {
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
-.container-piccolo .esegui .cards .card{
+
+.container-piccolo .esegui .cards .card {
   width: 30%;
   margin-top: 50px;
 }
-.container-piccolo .esegui .cards .card h3{
+
+.container-piccolo .esegui .cards .card h3 {
   font-size: 25px;
 }
-.container-piccolo .esegui .cards .margin{
+
+.container-piccolo .esegui .cards .margin {
   margin-left: 51px;
   margin-right: 51px;
 }
-.container-piccolo .esegui .cards .card img{
+
+.container-piccolo .esegui .cards .card img {
   width: 100%;
 }
-.container-piccolo .esegui .cards .card p{
-padding-top: 45px;
+
+.container-piccolo .esegui .cards .card p {
+  padding-top: 45px;
 }
 
 /* /cards */
+/* Busness */
+.container-piccolo .busness {
+  margin-top: 230px;
+}
 
+.container-piccolo .busness .titolo-busness {
+  width: 60%;
+}
+
+.container-piccolo .busness .link-busness {
+  margin-top: 80px;
+}
+
+.container-piccolo .busness .link-busness a {
+  text-decoration: underline;
+  color: #61082b;
+}
+
+/* /Busness */
+/* sponsor */
+.sponsor{
+width: calc(100% / 3);
+}
+
+.sponsor .sinistra{
+flex-wrap: wrap;
+}
+.designit, .asu, .uf, .toppes{
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.designit:hover,
+.asu:hover,
+.uf:hover,
+.toppes:hover{
+border: 20px solid rgb(0,0,0,0.25);
+
+
+}
+
+.designit{
+background-color: var(--designit);
+}
+.asu{
+background-color: var(--asu);
+}
+.uf{
+background-color: var(--uf);
+}
+.toppes{
+background-color: var(--topps);
+}
+.sponsor .sinistra img{
+width: 150px;
+}
+/* /sponsor */
 /* Footer */
