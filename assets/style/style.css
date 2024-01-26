@@ -523,5 +523,29 @@ width: 580px;
 color: var(--porta);
 }
 /* /prova gratuita */
+/* domande */
+.titolo-domande{
+margin-top: 100px;
+margin-bottom: 50px;
+}
+.domande{
+position: relative;
+padding: 40px 0px;
+border-top: 1px solid gray;
+justify-content: space-between;
 
+}
+.domande p:last-child{
+padding-right: 50px;
+}
+.risposte{
+position: absolute;
+padding: 40px 0px;
+
+}
+
+.domande:hover{
+
+}
+/* /domande */
 /* Footer */
