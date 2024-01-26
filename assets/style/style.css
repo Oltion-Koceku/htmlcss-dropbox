@@ -446,55 +446,82 @@ section.hero {
 .centro p:last-child {
   margin-top: 65px;
 }
+
 /* destra */
-.destra{
+.destra {
   width: calc(100% / 3);
 }
 
-  .sponsor .destra {
-    width: calc(100% / 3);
-    flex-wrap: wrap;
-  }
-  .world,
-  .hearst,
-  .lonely,
-  .clear {
-    width: 320px;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .world:hover,
-  .hearst:hover,
-  .lonely:hover,
-  .clear:hover {
-    border: 20px solid rgb(0, 0, 0, 0.25);
-  
-  
-  }
-  
-  .world {
-    background-color: var(--world);
-  }
-  
-  .hearst {
-    background-color: var(--hears);
-  }
-  
-  .lonely {
-    background-color: var(--lonely);
-  }
-  
-  .clear {
-    background-color: var(--clear);
-  }
-  .destra div img{
-  width: 150px;
-  }
+.sponsor .destra {
+  width: calc(100% / 3);
+  flex-wrap: wrap;
 }
-/* /sponsor */
 
+.world,
+.hearst,
+.lonely,
+.clear {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world:hover,
+.hearst:hover,
+.lonely:hover,
+.clear:hover {
+  border: 20px solid rgb(0, 0, 0, 0.25);
+
+
+}
+
+.world {
+  background-color: var(--world);
+}
+
+.hearst {
+  background-color: var(--hears);
+}
+
+.lonely {
+  background-color: var(--lonely);
+}
+
+.clear {
+  background-color: var(--clear);
+}
+
+.destra div img {
+  width: 150px;
+}
+
+
+/* /sponsor */
+/* prova gratuita */
+
+.porta{
+  height: 360px;
+  background-color: var(--hero-porta);
+  
+}
+.porta .button1 a{
+background-color: white;
+color: black;
+padding: 5px 30px;
+margin-left: 175px;
+}
+.porta .container-piccolo{
+  align-items: center;
+  height: 360px;
+}
+.titolo-porta{
+width: 580px;
+}
+.titolo-porta h2{
+color: var(--porta);
+}
+/* /prova gratuita */
 
 /* Footer */
