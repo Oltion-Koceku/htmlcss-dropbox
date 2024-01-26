@@ -97,6 +97,7 @@ hr {
   width: 65px;
   margin-top: 45px;
   margin-bottom: 45px;
+  color: gray;
 }
 
 /* Header */
@@ -535,6 +536,9 @@ border-top: 1px solid gray;
 justify-content: space-between;
 
 }
+.domande p{
+font-weight: bold;
+}
 .domande p:last-child{
 padding-right: 50px;
 }
@@ -549,3 +553,31 @@ padding: 40px 0px;
 }
 /* /domande */
 /* Footer */
+/* Menu */
+
+footer{
+background-color: black;
+margin-top: 100px;
+}
+
+.menu-foot{
+justify-content: space-between;
+}
+.titolo-foot{
+color: white;
+padding-top: 100px;
+}
+
+.titolo-foot h3{
+padding-bottom: 30px;
+}
+.titolo-foot p{
+padding-top: 20px;
+}
+.titolo-foot p a{
+color: white;
+}
+.titolo-foot span i{
+color: gray;
+}
+/* /Menu */
