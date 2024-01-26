@@ -9,6 +9,7 @@
   /* background */
   --button: #0061ff;
   --hero-porta: #b4d0e7;
+  --centro: #f5f5f5;
   /* Scritte */
   --porta: #61082b;
   /* Sponsor 1 */
@@ -379,14 +380,22 @@ section.hero {
 
 /* /Busness */
 /* sponsor */
-.sponsor{
-width: calc(100% / 3);
+.sponsor {
+  width: 100%;
+  margin-top: 150px;
+
 }
 
-.sponsor .sinistra{
-flex-wrap: wrap;
+
+.sponsor .sinistra {
+  width: calc(100% / 3);
+  flex-wrap: wrap;
 }
-.designit, .asu, .uf, .toppes{
+
+.designit,
+.asu,
+.uf,
+.toppes {
   width: 320px;
   height: 320px;
   display: flex;
@@ -397,26 +406,95 @@ flex-wrap: wrap;
 .designit:hover,
 .asu:hover,
 .uf:hover,
-.toppes:hover{
-border: 20px solid rgb(0,0,0,0.25);
+.toppes:hover {
+  border: 20px solid rgb(0, 0, 0, 0.25);
 
 
 }
 
-.designit{
-background-color: var(--designit);
+.designit {
+  background-color: var(--designit);
 }
-.asu{
-background-color: var(--asu);
+
+.asu {
+  background-color: var(--asu);
 }
-.uf{
-background-color: var(--uf);
+
+.uf {
+  background-color: var(--uf);
 }
-.toppes{
-background-color: var(--topps);
+
+.toppes {
+  background-color: var(--topps);
 }
-.sponsor .sinistra img{
-width: 150px;
+
+.sponsor .sinistra img {
+  width: 150px;
+}
+
+/* centro */
+.centro {
+  width: calc(100% / 3);
+  padding: 50px;
+  background-color: var(--centro);
+}
+
+.centro .logo2 img {
+  width: 250px;
+}
+
+.centro p:last-child {
+  margin-top: 65px;
+}
+/* destra */
+.destra{
+  width: calc(100% / 3);
+}
+
+  .sponsor .destra {
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+  }
+  .world,
+  .hearst,
+  .lonely,
+  .clear {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .world:hover,
+  .hearst:hover,
+  .lonely:hover,
+  .clear:hover {
+    border: 20px solid rgb(0, 0, 0, 0.25);
+  
+  
+  }
+  
+  .world {
+    background-color: var(--world);
+  }
+  
+  .hearst {
+    background-color: var(--hears);
+  }
+  
+  .lonely {
+    background-color: var(--lonely);
+  }
+  
+  .clear {
+    background-color: var(--clear);
+  }
+  .destra div img{
+  width: 150px;
+  }
 }
 /* /sponsor */
+
+
 /* Footer */
