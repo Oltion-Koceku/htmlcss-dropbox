@@ -559,6 +559,10 @@ section.hero {
 
 }
 
+.domande:last-child{
+border-bottom: 1px solid black;
+}
+
 .domande p {
   font-weight: bold;
 }
