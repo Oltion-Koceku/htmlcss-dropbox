@@ -109,6 +109,7 @@ header .top-bar {
   width: 100%;
   z-index: 999;
   background-color: white;
+  box-shadow: 0px 3px lightgray;
 }
 
 header .top-bar .info div a,
