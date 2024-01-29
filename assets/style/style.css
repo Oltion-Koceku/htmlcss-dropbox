@@ -60,11 +60,6 @@ main {
   position: relative;
 }
 
-/* .debug { */
-border: 1px solid black;
-background-color: cadetblue;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -74,10 +69,12 @@ a {
   list-style: none;
   text-decoration: none;
 }
-.button1:hover{
-opacity: 0.7;
-transition: all 0.5s;
+
+.button1:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
 }
+
 .button1 a {
   padding: 5px 10px;
   background-color: var(--button);
@@ -114,14 +111,26 @@ header .top-bar {
   background-color: white;
 }
 
-header .top-bar .info nav ul li a,
-header .top-bar .inizia nav ul li a {
+header .top-bar .info div a,
+header .top-bar .inizia div a {
   margin-right: 45px;
   color: black;
 }
 
-li{
-height: 100%;
+div .single-bar:hover {
+  height: 185%;
+  border-bottom: 2px solid;
+  text-align: center;
+}
+
+.inizia div.single-bar:hover {
+  height: 220%;
+  border-bottom: 2px solid;
+  text-align: center;
+}
+
+header .top-bar .inizia .button1 a{
+color: white;
 }
 
 /* button */
@@ -195,12 +204,13 @@ section.hero {
 
 .singolo,
 .team,
-.azienda {
+.azienda{
   width: 300px;
   height: 1160px;
   border: 1px solid black;
-  margin
+
 }
+
 
 .team {
   margin-left: 59px;
@@ -220,7 +230,7 @@ section.hero {
   font-size: 13px;
   padding: 6px 0px;
 }
-}
+
 
 .prezzo {
   height: 130px;
@@ -255,6 +265,10 @@ section.hero {
 .acquista p span {
   text-decoration: underline;
   color: #61082b;
+}
+
+.fa-solid.fa-check {
+  color: blue;
 }
 
 /* /piano */
@@ -431,6 +445,7 @@ section.hero {
 
 .sponsor .sinistra img {
   width: 150px;
+  filter: invert(100%);
 }
 
 /* centro */
@@ -456,6 +471,7 @@ section.hero {
 .sponsor .destra {
   width: calc(100% / 3);
   flex-wrap: wrap;
+  filter: invert(100%);
 }
 
 .world,
@@ -502,73 +518,84 @@ section.hero {
 /* /sponsor */
 /* prova gratuita */
 
-.porta{
+.porta {
   height: 360px;
   background-color: var(--hero-porta);
-  
+
 }
-.porta .button1 a{
-background-color: white;
-color: black;
-padding: 5px 30px;
-margin-left: 175px;
+
+.porta .button1 a {
+  background-color: white;
+  color: black;
+  padding: 5px 30px;
+  margin-left: 175px;
 }
-.porta .container-piccolo{
+
+.porta .container-piccolo {
   align-items: center;
   height: 360px;
 }
-.titolo-porta{
-width: 580px;
+
+.titolo-porta {
+  width: 580px;
 }
-.titolo-porta h2{
-color: var(--porta);
+
+.titolo-porta h2 {
+  color: var(--porta);
 }
+
 /* /prova gratuita */
 /* domande */
-.titolo-domande{
-margin-top: 100px;
-margin-bottom: 50px;
-}
-.domande{
-position: relative;
-padding: 40px 0px;
-border-top: 1px solid gray;
-justify-content: space-between;
-
-}
-.domande p{
-font-weight: bold;
+.titolo-domande {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-.domande p i{
-margin-left: 250px;
-}
-.domande:hover p i:first-child{
-display: none;
-}
-.domande p .fa-solid.fa-angle-up{
-position: absolute;
-right: 51px;
-top: 41px;
-display: none;
+.domande {
+  position: relative;
+  padding: 40px 0px;
+  border-top: 1px solid gray;
+  justify-content: space-between;
+
 }
 
-.domande:hover p .fa-angle-up{
-display: block;
-} */
-.domande div{
-display: none;
+.domande p {
+  font-weight: bold;
 }
 
-.domande:hover div{
-display: block;
-}
-.risposte{
-padding: 20px 0px;
-display: none;
+.domande p i {
+  margin-left: 250px;
 }
 
-.risposte p{
+.domande:hover p i:first-child {
+  display: none;
+}
+
+.domande p .fa-solid.fa-angle-up {
+  position: absolute;
+  right: 51px;
+  top: 41px;
+  display: none;
+}
+
+.domande:hover p .fa-angle-up {
+  display: block;
+}
+
+.domande div {
+  display: none;
+}
+
+.domande:hover div {
+  display: block;
+}
+
+.risposte {
+  padding: 20px 0px;
+  display: none;
+}
+
+.risposte p {
   font-weight: 500;
 
 }
@@ -577,29 +604,37 @@ display: none;
 /* Footer */
 /* Menu */
 
-footer{
-background-color: black;
+footer {
+  background-color: black;
+  margin-top: 100px;
+}
+
+.menu-foot {
+  justify-content: space-between;
+}
+
+.titolo-foot {
+  color: white;
+  padding-top: 100px;
+}
+
+.titolo-foot h3 {
+  padding-bottom: 30px;
+}
+
+.titolo-foot p {
+  padding-top: 20px;
+}
+
+div.titolo-foot hr{
 margin-top: 100px;
 }
-
-.menu-foot{
-justify-content: space-between;
-}
-.titolo-foot{
-color: white;
-padding-top: 100px;
+.titolo-foot p a {
+  color: white;
 }
 
-.titolo-foot h3{
-padding-bottom: 30px;
+.titolo-foot span i {
+  color: gray;
 }
-.titolo-foot p{
-padding-top: 20px;
-}
-.titolo-foot p a{
-color: white;
-}
-.titolo-foot span i{
-color: gray;
-}
+
 /* /Menu */
