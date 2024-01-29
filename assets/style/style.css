@@ -74,7 +74,10 @@ a {
   list-style: none;
   text-decoration: none;
 }
-
+.button1:hover{
+opacity: 0.7;
+transition: all 0.5s;
+}
 .button1 a {
   padding: 5px 10px;
   background-color: var(--button);
@@ -115,6 +118,10 @@ header .top-bar .info nav ul li a,
 header .top-bar .inizia nav ul li a {
   margin-right: 45px;
   color: black;
+}
+
+li{
+height: 100%;
 }
 
 /* button */
@@ -243,12 +250,6 @@ section.hero {
   width: 240px;
   display: flex;
   justify-content: center;
-}
-
-.azienda .button1 a {}
-
-.azienda .info-piano p:last-child {
-  padding-top: 20px;
 }
 
 .acquista p span {
@@ -409,11 +410,10 @@ section.hero {
 .uf:hover,
 .toppes:hover {
   border: 20px solid rgb(0, 0, 0, 0.25);
-
-
 }
 
 .designit {
+  border: 20px solid rgb(0, 0, 0, 0.25);
   background-color: var(--designit);
 }
 
@@ -539,18 +539,40 @@ justify-content: space-between;
 .domande p{
 font-weight: bold;
 }
-.domande p:last-child{
-padding-right: 50px;
+
+.domande p i{
+margin-left: 250px;
+}
+.domande:hover p i:first-child{
+display: none;
+}
+.domande p .fa-solid.fa-angle-up{
+position: absolute;
+right: 51px;
+top: 41px;
+display: none;
+}
+
+.domande:hover p .fa-angle-up{
+display: block;
+} */
+.domande div{
+display: none;
+}
+
+.domande:hover div{
+display: block;
 }
 .risposte{
-position: absolute;
-padding: 40px 0px;
+padding: 20px 0px;
+display: none;
+}
+
+.risposte p{
+  font-weight: 500;
 
 }
 
-.domande:hover{
-
-}
 /* /domande */
 /* Footer */
 /* Menu */
